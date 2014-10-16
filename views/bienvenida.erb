@@ -1,4 +1,14 @@
 <h1>Tennis</h1>
 
-<p align="center">Bienvenido Tenis Score</p>
-<%= @valor1 %>
+Bienvenido Tenis Score
+
+<%=@valor1%>
+<img src="/images/tennis.jpg" style="width:42px;height:42px;border:0"/>
+<br>
+<br>
+
+<form action="/juego" method="post" name="jugadores">
+Jugador 1 <input type="text" name="jugador1"/><br>
+Jugador 2 <input type="text" name="jugador2"/><br>
+<input type="submit" value="Aceptar" name="aceptar"/>
+</form>	
